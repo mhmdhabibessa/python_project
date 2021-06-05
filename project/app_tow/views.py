@@ -9,3 +9,5 @@ def login(request):
 
 def teacher(request):
     return render(request,'teacher.html')
+def sp_teacher(request):
+    return render(request,'sp_teacher.html')
